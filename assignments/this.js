@@ -56,7 +56,8 @@ console.log(address.fullAddress());
 // code example for Explicit Binding
 
 var roboStats = function () {
-  console.log("my name is " + this.name + " my iq is " + this.iq);
+  // console.log("my name is " + this.name + " my iq is " + this.iq);
+     console.log(`My name is ${this.name} and my iq is ${this.iq}`);
 };
 var robot = {
   name: "willbur",
